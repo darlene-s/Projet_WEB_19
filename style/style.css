@@ -131,6 +131,7 @@ a:active {
     padding-block-start: 2%;
     background-size: auto 100%;
     padding-block-end: 1%;
+    margin-top: 10px;
     width: 230px;
     float: right;
 }
@@ -186,9 +187,99 @@ a:active {
 }
 
 /**
-* Partie 2
+* Partie 2 - Responsive
 **/
-/* pour les écrans plus petits */
+
+/*Ecrans type "mobiles" dont la largeur est inférieure ou égale à 600px  */
 @media only screen and (max-width: 600px) {
-    
+
+    #container {
+        margin-left: 0px;
+    }
+
+.textboxtop {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    margin-top: 280px;
+}
+
+.textboxtop2 {
+    width: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.textbox {
+    width: 210px;
+    font-size: 8px;
+}
+img {
+    margin-top: 15px;
+    margin-right: 15px;
+    float:right;
+}
+
+.textboxbottom {
+    width: 210px;
+    height: 35px;
+}
+
+  #navR {
+    margin-left: 230px;
+    margin-top : 272px;
+  }
+#menu {
+    width: 180px;
+
+}
+
+
+}
+
+/*Ecrans type "tablettes" dont la largeur est comprise entre 601px et 900px*/
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+       #container {
+        margin-left: 10px;
+        
+    }
+
+.textboxtop {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    margin-top: 280px;
+}
+
+.textboxtop2 {
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.textbox {
+    width: 320px;
+    font-size: 8px;
+}
+img {
+    margin-top: 15px;
+    margin-right: 15px;
+    float:right;
+}
+
+.textboxbottom {
+    width: 320px;
+    height: 35px;
+}
+
+  #navR {
+    margin-left: 450px;
+    margin-top : 272px;
+  
+  }
+#menu {
+    width: 180px;
+
+}
+
 }
