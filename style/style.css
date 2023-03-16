@@ -12,6 +12,7 @@ p {
     padding: 10px 10px 0 10px;
     margin: 0;
 }
+
 img {
     float: right;
     border-style: double;
@@ -19,6 +20,7 @@ img {
     height: 100px;
     margin-right: 50px;
 }
+
 .tab {
     display: block;
     background-size: cover;
@@ -41,6 +43,7 @@ img {
     padding: 10px 15px 10px 10px;
 
 }
+
 .textboxtop {
     color: #880921;
     font-weight: bold;
@@ -95,6 +98,7 @@ img {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 #container {
     margin-left: 100px;
     background-image: url('../images/main_b.jpg');
@@ -182,7 +186,7 @@ a:active {
 }
 
 #body {
-   
+
     display: inline-block;
 }
 
@@ -197,89 +201,93 @@ a:active {
         margin-left: 0px;
     }
 
-.textboxtop {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 190px;
-    margin-top: 280px;
-}
+    .textboxtop {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 190px;
+        margin-top: 280px;
+    }
 
-.textboxtop2 {
-    width: 190px;
-    background-size: cover;
-    background-repeat: no-repeat;    
-}
+    .textboxtop2 {
+        width: 190px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
-.textbox {
-    width: 210px;
-    font-size: 8px;
-}
-img {
-    margin-top: 15px;
-    margin-right: 15px;
-    float:right;
-}
+    .textbox {
+        width: 210px;
+        font-size: 8px;
+    }
 
-.textboxbottom {
-    width: 210px;
-    height: 35px;
-}
+    img {
+        margin-top: 15px;
+        margin-right: 15px;
+        float: right;
+    }
 
-  #navR {
-    margin-left: 230px;
-    margin-top : 272px;
-  }
-#menu {
-    width: 180px;
+    .textboxbottom {
+        width: 210px;
+        height: 35px;
+    }
 
-}
+    #navR {
+        margin-left: 230px;
+        margin-top: 272px;
+    }
+
+    #menu {
+        width: 180px;
+
+    }
 
 
 }
 
 /*Ecrans type "tablettes" dont la largeur est comprise entre 601px et 900px*/
 @media only screen and (min-width: 601px) and (max-width: 900px) {
-       #container {
+    #container {
         margin-left: 10px;
-        
+
     }
 
-.textboxtop {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 300px;
-    margin-top: 280px;
-}
+    .textboxtop {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        margin-top: 280px;
+    }
 
-.textboxtop2 {
-    width: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;    
-}
+    .textboxtop2 {
+        width: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
-.textbox {
-    width: 320px;
-    font-size: 8px;
-}
-img {
-    margin-top: 15px;
-    margin-right: 15px;
-    float:right;
-}
+    .textbox {
+        width: 320px;
+        font-size: 8px;
+    }
 
-.textboxbottom {
-    width: 320px;
-    height: 35px;
-}
+    img {
+        margin-top: 15px;
+        margin-right: 15px;
+        float: right;
+    }
 
-  #navR {
-    margin-left: 450px;
-    margin-top : 272px;
-  
-  }
-#menu {
-    width: 180px;
+    .textboxbottom {
+        width: 320px;
+        height: 35px;
+    }
 
-}
+    #navR {
+        margin-left: 450px;
+        margin-top: 272px;
+
+    }
+
+    #menu {
+        width: 180px;
+
+    }
 
 }
